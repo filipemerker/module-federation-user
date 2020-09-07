@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --open --config webpack.dev.js",
     "serve": "serve docs -p 3003",
     "clean": "rm -rf docs"
   },
