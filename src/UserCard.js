@@ -9,18 +9,15 @@ const UserCard = ({ name, picture, address, about }) => (
     <Info>
       <Title>{name}</Title>
       <Subtitle>{address}</Subtitle>
-      <About>{about}</About>
+      <p>{about}</p>
     </Info>
   </Card>
 )
 
-const About = styled.p`
-  margin-top: 1em;
-`
-
 const Subtitle = styled.p`
   font-style: italic;
   color: gray;
+  margin-bottom: 1em;
 `
 
 const Title = styled.h1`
